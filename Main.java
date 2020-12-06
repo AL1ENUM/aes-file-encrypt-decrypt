@@ -19,22 +19,13 @@ public class Main {
 
 	
 
-		String alien1 = "minotaur:m1nom1no..";
-		String alien2 = "scylla:scyscy..";
-		String alien3 = "echidna:ech1ech1..";
-		String alien4 = "cyclops:cyccyc..";
-		String alien5 = "anunnaki:nak1nak1..";
-		String alien6 = "anunnaki:nak1nak2..";
-		String alien7 = "anunnaki:nakinaki..";
+		String alien1 = "username1:password1";
+		String alien2 = "username2:password2";
+
 		
 		List<String> aliens = new ArrayList<>();
 		aliens.add(alien1);
 		aliens.add(alien2);
-		aliens.add(alien3);
-		aliens.add(alien4);
-		aliens.add(alien5);
-		aliens.add(alien6);
-		aliens.add(alien7);
 		
 		 FileOutputStream fos = null;
 		    try {
@@ -68,7 +59,7 @@ public class Main {
 		}
 		System.out.println("results = " + results);
 		
-		 String key = "w4rz0nerex0gener";
+		 String key = "AlienumSecretKey";
 	        File inputFile = new File(path);
 	        File encryptedFile = new File("aliens.encrypted");
 	        File decryptedFile = new File("aliens.decrypted");
